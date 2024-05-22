@@ -1,0 +1,59 @@
+body {
+    background-color: pink;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: white;
+    color: pink;
+    padding: 10px 0;
+}
+
+header h1, footer p {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+label, input {
+    display: block;
+    margin: 10px auto;
+    font-size: 1.2em;
+}
+
+input {
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    color: pink;
+    border: 2px solid pink;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: lightpink;
+}
+
+.hidden {
+    display: none;
+}
+
+.page {
+    padding: 20px;
+}
