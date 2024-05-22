@@ -26,16 +26,13 @@
         <h2>Calculate Ingredients</h2>
         <label for="newEggWhites">Egg Whites (g):</label>
         <input type="number" id="newEggWhites" step="0.01" oninput="calculateIngredients()">
-        <label for="newSugar">Sugar (g):</label>
-        <input type="number" id="newSugar" readonly>
-        <label for="newAlmondFlour">Almond Flour (g):</label>
-        <input type="number" id="newAlmondFlour" readonly>
-        <label for="newPowderedSugar">Powdered Sugar (g):</label>
-        <input type="number" id="newPowderedSugar" readonly>
+        <p>Sugar (g): <span id="newSugar"></span></p>
+        <p>Almond Flour (g): <span id="newAlmondFlour"></span></p>
+        <p>Powdered Sugar (g): <span id="newPowderedSugar"></span></p>
         <button onclick="goBack()">Back</button>
     </div>
     <footer>
-        <p>by juliadustygreen</p>
+        <p>by lemontardd
     </footer>
     <script src="script.js"></script>
 </body>
