@@ -33,8 +33,6 @@ input {
     border: 2px solid white;
     border-radius: 5px;
     text-align: center;
-    width: 80%;
-    max-width: 300px;
 }
 
 button {
